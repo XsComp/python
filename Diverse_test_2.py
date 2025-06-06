@@ -1332,41 +1332,41 @@
 #     send(packet, loop=1, inter=0.000001, verbose=1)
 
 
-# class MyClass:
-#     something = 0
-#     # Sets the docstrings property of the class
-#     __doc__ = "This is an overview of what MyClass does."
+class MyClass:
+    something = 0
+    # Sets the docstrings property of the class
+    __doc__ = "This is an overview of what MyClass does."
 
-#     def my_class_function():
-#         # A one-line docstring for this method
-#         '''This is an overview of what my_class_function does. we should not write essays here, but it should be anough to make no doubt what is going on.'''
-#         print("Called MyClass function")
+    def my_class_function(self):
+        # A one-line docstring for this method
+        '''This is an overview of what my_class_function does. we should not write essays here, but it should be anough to make no doubt what is going on.'''
+        print("Called MyClass function")
 
-#     def my_class_function2():
-#         ''' Another example. How does this look?'''
-#         print("Called MyClass function 2")
-
-
-# def my_function():
-#     print("Called function")
-
-# # Sets the docstrings property of the function.
-# my_function.__doc__ = "This is an overview of what MyFunction does."
-
-# help(MyClass)
-# print()
-# help(my_function)
+    def my_class_function2(self):
+        ''' Another example. How does this look?'''
+        print("Called MyClass function 2")
 
 
-# def my_other_method():
-#     """This is a mult-line descriptive docstring.
-#     We can write multiple lines like this to help
-#     everythin still look neat and orderly. But don't
-#     let each line be too long. Try to hold dem to a
-#     uniform lenght."""
-#     print("Called my_other_method.")
+def my_function():
+    print("Called function")
 
-# help(my_other_method)
+# Sets the docstrings property of the function.
+my_function.__doc__ = "This is an overview of what MyFunction does."
+
+help(MyClass)
+print()
+help(my_function)
+
+
+def my_other_method():
+    """This is a mult-line descriptive docstring.
+    We can write multiple lines like this to help
+    everythin still look neat and orderly. But don't
+    let each line be too long. Try to hold dem to a
+    uniform lenght."""
+    print("Called my_other_method.")
+
+help(my_other_method)
 
 
 

@@ -1,7 +1,7 @@
 # GuessingGame.py
 
 
-from Old.mymodules import create_time, output_local_time, calculate_difference, generate_random
+from my_modules import create_time, output_local_time, calculate_difference, generate_random
 
 print("Velkommen til Gjett Tallet-spillet!")
 print("Jeg \"tenker\" på et tall mellom 0 og 10. Kan du gjette hva det er?")
