@@ -2,9 +2,10 @@
 String Handling Sample Question:
 Given the following variables:
 '''
+
 name = "jane doe"
 items = ["mascara","lipstick","hair extensions", "handbag"]
-prices = [48.49, 19, 109.99, 250]
+prices:list[float] = [48.49, 19, 109.99, 250]
 total = 0
 currency = 'nok'
 
