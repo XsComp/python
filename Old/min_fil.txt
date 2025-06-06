@@ -1,0 +1,7 @@
+Enda en linje 1
+Enda en linje 2
+Enda en linje 3##########inje 4
+Enda en linje 1
+Enda en linje 2
+Enda en linje 3
+Enda en linje 4

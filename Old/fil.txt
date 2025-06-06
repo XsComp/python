@@ -1,0 +1,6 @@
+Dette er en tekst som vi ønsker å redigere med skrip######idere tilbyr Python også nøkkelordet «with», som gjør det mulig å kjøre/tolke en kode innenfor et spesifikt omfang og ber operativsystemet om å frigi ressursene når ressursen forlater omfanget. Dette er den foretrukne måten å få tilgang til filer på, siden selv om det oppstår en feil (uten feilhåndtering på plass), vil filobjektet forlate omfanget når «with»-blokken avsluttes. Dette vil resultere i at filressursen frigis (lukkes).
+
+
+Ved å bruke filmodusen r+, sammen med seek()-metoden, blir det mulig å lese innholdet i en fil og endre deler av den ved å flytte pekeren rundt etter behov.
+
+54 - 60

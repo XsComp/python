@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hacker Sim</title>
+</head>
+
+<body>
+    <h2>Difficulty: {{ difficulty }}</h2>
+    <p>{{ response }}</p>
+
+    {% if step == 1 %}
+    <form method="POST">
+        <input type="hidden" name="choice" value="scan">
+        <button type="submit">Scan Network</button>
+    </form>
+    {% elif step == 2 %}
+    <form method="POST">
+        <input type="hidden" name="choice" value="login">
+        Username: <input type="text" name="username"><br>
+        Password: <input type="password" name="password"><br>
+        <button type="submit">Attempt Login</button>
+    </form>
+    {% endif %}
+</body>
+
+</html>
