@@ -1,0 +1,58 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# VS Code settings
+.vscode/
+
+# macOS and Linux hidden files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python-specific logs and settings
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Test coverage and test logs
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# pdoc documentation output
+docs/
+
+# User-specific or secret config
+*.sqlite3
+*.db
+*.pem
+*.crt
+*.key
+*.env
+*.secret
